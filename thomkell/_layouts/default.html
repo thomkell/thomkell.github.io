@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Include Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Profile Picture -->
+        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile Picture" class="profile-img">
+        <h2>Thomas Hinano Keller</h2>
+        <p>Data Scientist | Machine Learning Engineer</p>
+        
+        <p><p>San Diego, USA | Zurich, Switzerland</p>
+        
+        <!-- Social Links -->
+        <ul class="social-links">
+          <li><a href="mailto:th.h.keller@gmail.com">Email</a></li>
+          <li><a href="https://linkedin.com/in/thomkell">LinkedIn</a></li>
+          <li><a href="https://github.com/thomkell">GitHub</a></li>
+        </ul>
+      </div>
+      
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Navigation Menu -->
+        <nav class="main-menu">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+            <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Content Area -->
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </body>
+</html>
