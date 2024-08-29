@@ -136,3 +136,37 @@ body {
   padding: 10px;
   background-color: #f8f9fa;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column; /* Stack the sidebar and content vertically on smaller screens */
+  }
+
+  .sidebar {
+    width: 100%; /* Make sidebar full-width on small screens */
+    height: auto; /* Allow the sidebar to resize with its content */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-content {
+    margin-left: 0; /* Remove the left margin on small screens */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    display: none; /* Optionally hide the sidebar on very small screens */
+  }
+
+  .main-content {
+    margin: 0; /* Remove all margins on very small screens */
+    padding: 15px; /* Adjust padding to keep the content readable */
+  }
+}
