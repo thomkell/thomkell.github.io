@@ -85,13 +85,13 @@ body {
 .main-menu ul {
   list-style: none;
   padding: 0;
-  margin: 0 0 20px 0;
-  text-align: right;
+  margin: 20px 0 20px 0; /* Add margin for spacing above and below */
+  text-align: center; /* Center the menu */
 }
 
 .main-menu ul li {
-  display: inline-block; /* Keep items inline on larger screens */
-  margin: 0 15px;
+  display: block; /* Stack menu items vertically */
+  margin: 15px 0; /* Add space between menu items */
 }
 
 .main-menu ul li a {
@@ -139,23 +139,54 @@ body {
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column; /* Stack the sidebar and content vertically on smaller screens */
+  }
+
+  .sidebar {
+    width: 100%; /* Make sidebar full-width on small screens */
+    height: auto; /* Allow the sidebar to resize with its content */
+    padding: 10px; /* Reduce padding for smaller screens */
+    order: -1; /* Move the sidebar to the top */
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-content {
+    margin-left: 0; /* Remove the left margin on small screens */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
   .main-menu ul {
-    text-align: center; /* Center the menu on mobile */
+    margin: 20px 0; /* Add space above and below the menu */
   }
 
   .main-menu ul li {
-    display: inline-block; /* Keep items in a row */
-    margin: 10px 10px; /* Adjust margin for spacing */
+    margin: 10px 0; /* Add more space between menu items */
   }
 }
 
 @media (max-width: 480px) {
+  .sidebar {
+    width: 100%; /* Sidebar takes full width */
+    height: auto; /* Sidebar adjusts its height based on content */
+    padding: 15px; /* Adjust padding to keep the content readable */
+    order: -1; /* Move the sidebar to the top */
+  }
+
+  .main-content {
+    margin: 0; /* Remove all margins on very small screens */
+    padding: 15px; /* Adjust padding to keep the content readable */
+  }
+
   .main-menu ul {
-    text-align: center; /* Center the menu on very small screens */
+    margin: 20px 0; /* Add space above and below the menu */
   }
 
   .main-menu ul li {
-    display: block; /* Stack menu items vertically on very small screens */
-    margin: 10px 0; /* Add space between menu items */
+    margin: 10px 0; /* Add more space between menu items */
   }
 }
