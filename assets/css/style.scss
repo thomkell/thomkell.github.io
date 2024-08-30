@@ -14,7 +14,7 @@ body {
 .wrapper {
   display: flex;
   align-items: flex-start; /* Align items to the top */
-  justify-content: flex-start; /* Align content to the left */
+  justify-content: center; /* Align content to the center horizontally */
   min-height: 100vh; /* Ensure the wrapper takes full viewport height */
   margin: 0; /* Ensure wrapper starts at the left edge */
 }
@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   justify-content: flex-start; /* Align content to the top */
   height: 100vh; /* Make the sidebar fill the viewport height */
+  align-items: center; /* Center content horizontally */
 }
 
 /* Profile image styling */
@@ -79,6 +80,7 @@ body {
   padding: 20px;
   background-color: #ffffff;
   margin-left: 20px; /* Add some space between the sidebar and content */
+  align-items: center; /* Center the content horizontally */
 }
 
 /* Main navigation menu */
@@ -141,6 +143,7 @@ body {
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column; /* Stack the sidebar and content vertically on smaller screens */
+    align-items: center; /* Center content horizontally */
   }
 
   .sidebar {
@@ -158,6 +161,7 @@ body {
   .main-content {
     margin-left: 0; /* Remove the left margin on small screens */
     padding: 10px; /* Reduce padding for smaller screens */
+    align-items: center; /* Center the content horizontally */
   }
 
   .main-menu ul {
@@ -180,6 +184,7 @@ body {
   .main-content {
     margin: 0; /* Remove all margins on very small screens */
     padding: 15px; /* Adjust padding to keep the content readable */
+    align-items: center; /* Center the content horizontally */
   }
 
   .main-menu ul {
