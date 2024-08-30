@@ -159,6 +159,15 @@ body {
     margin-left: 0; /* Remove the left margin on small screens */
     padding: 10px; /* Reduce padding for smaller screens */
   }
+
+  .main-menu ul {
+    text-align: center; /* Center the menu on mobile */
+  }
+
+  .main-menu ul li {
+    display: block; /* Stack menu items vertically */
+    margin: 10px 0; /* Add some space between menu items */
+  }
 }
 
 @media (max-width: 480px) {
@@ -172,5 +181,14 @@ body {
   .main-content {
     margin: 0; /* Remove all margins on very small screens */
     padding: 15px; /* Adjust padding to keep the content readable */
+  }
+
+  .main-menu ul {
+    text-align: center; /* Center the menu on mobile */
+  }
+
+  .main-menu ul li {
+    display: block; /* Stack menu items vertically */
+    margin: 10px 0; /* Add some space between menu items */
   }
 }
