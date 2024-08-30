@@ -14,7 +14,7 @@ body {
 .wrapper {
   display: flex;
   align-items: flex-start; /* Align items to the top */
-  justify-content: center; /* Align content to the center horizontally */
+  justify-content: flex-start; /* Align content to the left */
   min-height: 100vh; /* Ensure the wrapper takes full viewport height */
   margin: 0; /* Ensure wrapper starts at the left edge */
 }
@@ -88,12 +88,12 @@ body {
   list-style: none;
   padding: 0;
   margin: 20px 0 20px 0; /* Add margin for spacing above and below */
-  text-align: center; /* Center the menu */
+  text-align: right; /* Align menu to the right on larger screens */
 }
 
 .main-menu ul li {
-  display: block; /* Stack menu items vertically */
-  margin: 15px 0; /* Add space between menu items */
+  display: inline-block; /* Keep items inline on larger screens */
+  margin: 0 15px; /* Add space between items */
 }
 
 .main-menu ul li a {
@@ -165,11 +165,12 @@ body {
   }
 
   .main-menu ul {
-    margin: 20px 0; /* Add space above and below the menu */
+    text-align: center; /* Center the menu on mobile */
   }
 
   .main-menu ul li {
-    margin: 10px 0; /* Add more space between menu items */
+    display: block; /* Stack menu items vertically on mobile */
+    margin: 10px 0; /* Add space between menu items */
   }
 }
 
@@ -188,10 +189,11 @@ body {
   }
 
   .main-menu ul {
-    margin: 20px 0; /* Add space above and below the menu */
+    text-align: center; /* Center the menu on mobile */
   }
 
   .main-menu ul li {
+    display: block; /* Stack menu items vertically on very small screens */
     margin: 10px 0; /* Add more space between menu items */
   }
 }
