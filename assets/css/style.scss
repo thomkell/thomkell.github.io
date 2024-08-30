@@ -90,7 +90,7 @@ body {
 }
 
 .main-menu ul li {
-  display: inline;
+  display: inline-block; /* Keep items inline on larger screens */
   margin: 0 15px;
 }
 
@@ -139,56 +139,23 @@ body {
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-  .wrapper {
-    flex-direction: column; /* Stack the sidebar and content vertically on smaller screens */
-  }
-
-  .sidebar {
-    width: 100%; /* Make sidebar full-width on small screens */
-    height: auto; /* Allow the sidebar to resize with its content */
-    padding: 10px; /* Reduce padding for smaller screens */
-    order: -1; /* Move the sidebar to the top */
-  }
-
-  .profile-img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .main-content {
-    margin-left: 0; /* Remove the left margin on small screens */
-    padding: 10px; /* Reduce padding for smaller screens */
-  }
-
   .main-menu ul {
     text-align: center; /* Center the menu on mobile */
   }
 
   .main-menu ul li {
-    display: block; /* Stack menu items vertically */
-    margin: 10px 0; /* Add some space between menu items */
+    display: inline-block; /* Keep items in a row */
+    margin: 10px 10px; /* Adjust margin for spacing */
   }
 }
 
 @media (max-width: 480px) {
-  .sidebar {
-    width: 100%; /* Sidebar takes full width */
-    height: auto; /* Sidebar adjusts its height based on content */
-    padding: 15px; /* Adjust padding to keep the content readable */
-    order: -1; /* Move the sidebar to the top */
-  }
-
-  .main-content {
-    margin: 0; /* Remove all margins on very small screens */
-    padding: 15px; /* Adjust padding to keep the content readable */
-  }
-
   .main-menu ul {
-    text-align: center; /* Center the menu on mobile */
+    text-align: center; /* Center the menu on very small screens */
   }
 
   .main-menu ul li {
-    display: block; /* Stack menu items vertically */
-    margin: 10px 0; /* Add some space between menu items */
+    display: block; /* Stack menu items vertically on very small screens */
+    margin: 10px 0; /* Add space between menu items */
   }
 }
