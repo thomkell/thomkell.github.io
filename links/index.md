@@ -8,5 +8,5 @@ title: ":Links"
 Here are some links you might find interesting:
 
 - [Artigall](https://artigall.ch) - A creative platform for artists
-- [RK Kult](https://rk-kult.ch) - Cultural events and activities
+- [RK-Kult](https://rk-kult.ch) - Cultural events and activities
 - [Amicitia](https://amicitia.ch) - Fraternity, friendship and lifelong connections
