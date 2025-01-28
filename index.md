@@ -5,8 +5,8 @@ title: "Home"
 
 ## Welcome to My Site
 
-I am Thomas, a passionate Data Scientist, Machine Learning Engineer, and Medical Imaging AI researcher with a strong background in computational science and electrical engineering. My expertise spans across a variety of fields, including deep learning, medical imaging, and parallel computing. I hold a Master’s degree in Computational Science with an emphasis on Data Science, and I’ve honed my skills in Python, C, and machine learning frameworks like TensorFlow and Keras.
+Hi, I’m Thomas, a Data Scientist, Machine Learning Engineer, and AI Researcher specializing in medical imaging AI and digital pathology. With a strong background in computational science and data science, I work on developing scalable AI solutions to improve diagnostics and enhance patient care.
 
-My work focuses on developing innovative solutions to complex problems, such as improving COPD severity staging using U-Net models and parallelizing neural network training in C. I am driven by a desire to create impactful technology that not only advances the field but also positively affects the lives of others.
+Currently, I focus on building machine learning workflows, developing models, and optimizing AI pipelines for digital pathology at the Ellison Medical Institute. My work includes leveraging vector-based machine learning, cloud computing, and advanced data processing techniques to analyze complex medical datasets and deliver impactful, scalable solutions. Previously, I worked on projects such as COPD severity staging using deep learning and parallelizing neural networks for faster and more efficient predictions.
 
-Beyond my technical expertise, I am a fast learner, always eager to explore new methodologies and tools. I enjoy working on challenging projects that require both creativity and precision, and I thrive in collaborative environments where diverse ideas come together to drive innovation.
+I’m passionate about solving meaningful challenges in healthcare and beyond through AI and enjoy collaborating in dynamic, innovative environments to drive progress.
