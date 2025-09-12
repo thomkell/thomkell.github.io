@@ -5,8 +5,10 @@ title: "Home"
 
 ## Welcome to My Site
 
-Hi, I’m Thomas, a Data Scientist, Machine Learning Engineer, and AI Researcher specializing in medical imaging AI and digital pathology. With a strong background in computational science and data science, I work on developing scalable AI solutions to improve diagnostics and enhance patient care.
+Hi, I’m Thomas - an AI Researcher specializing in medical imaging and digital pathology. With a background in computational science and data science, I develop scalable AI solutions that support diagnostics and improve healthcare outcomes.
 
-Currently, I focus on building machine learning workflows, developing models, and optimizing AI pipelines for digital pathology at the Ellison Medical Institute. My work includes leveraging vector-based machine learning, cloud computing, and advanced data processing techniques to analyze complex medical datasets and deliver impactful, scalable solutions. Previously, I worked on projects such as COPD severity staging using deep learning and parallelizing neural networks for faster and more efficient predictions.
+Previously, I worked as an AI Research Engineer at the Ellison Medical Institute in Los Angeles, where I built machine learning workflows, optimized AI pipelines, and applied foundation models to complex pathology datasets. Earlier projects include deep learning for COPD severity staging and parallelized neural networks for efficient prediction.
 
-I’m passionate about solving meaningful challenges in healthcare and beyond through AI and enjoy collaborating in dynamic, innovative environments to drive progress.
+I am now beginning my PhD in artificial intelligence and medical imaging, continuing my focus on advancing AI-driven approaches for healthcare. In my free time, I explore ways to bring AI into companies’ daily operations, making advanced technologies more accessible and impactful beyond research.
+
+I’m passionate about tackling meaningful challenges through AI and enjoy collaborating in innovative, interdisciplinary environments to translate research into real-world impact.

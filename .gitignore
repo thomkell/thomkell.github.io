@@ -1,5 +1,20 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+vendor/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+
+# Editor configs (optional)
+.vscode/
+.idea/
+
