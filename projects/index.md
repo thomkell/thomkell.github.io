@@ -7,9 +7,9 @@ title: "Projects"
 A selection of projects spanning digital pathology, applied AI, and computational science.
 
 ## Digital Pathology with Foundation Models *(Ellison Medical Institute – publication forthcoming)*
-As part of my work at Ellison Medical Institute in Los Angeles, I engineered AI pipelines for computational pathology using **histopathology slides** as the core data source. Leveraging foundation models such as **Gigapath** and **Canvoi**, I extracted high-dimensional embeddings from whole slide images to enable downstream machine learning tasks, including:
-- Classifying **high vs. low BMI groups** from histopathology data.  
-- Predicting **HER2-positive vs. HER2-negative** breast cancer using embeddings from multiple magnifications (**5x, 10x, 20x**).  
+As part of my work at Ellison Medical Institute in Los Angeles, I engineered AI pipelines for computational pathology using histopathology slides as the core data source. Leveraging foundation models such as Gigapath and Canvoi, I extracted high-dimensional embeddings from whole slide images to enable downstream machine learning tasks, including:
+- Classifying high vs. low BMI groups from histopathology data.  
+- Predicting HER2-positive vs. HER2-negative breast cancer using embeddings from multiple magnifications (5x, 10x, 20x).  
 
 This work integrates cloud-based infrastructure and automated workflows for scalability and reliability, and will be featured in an upcoming scientific publication.
 

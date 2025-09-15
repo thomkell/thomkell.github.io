@@ -5,7 +5,7 @@ title: "Home"
 
 ## Welcome to My Site
 
-Hi, I’m Thomas - an AI Researcher specializing in medical imaging and digital pathology. With a background in computational science and data science, I develop scalable AI solutions that support diagnostics and improve healthcare outcomes.
+Hi, I’m Thomas — an AI Researcher specializing in medical imaging and digital pathology. With a background in computational science and data science, I develop scalable AI solutions that support diagnostics and improve healthcare outcomes.
 
 Previously, I worked as an AI Research Engineer at the Ellison Medical Institute in Los Angeles, where I built machine learning workflows, optimized AI pipelines, and applied foundation models to complex pathology datasets. Earlier projects include deep learning for COPD severity staging and parallelized neural networks for efficient prediction.
 
