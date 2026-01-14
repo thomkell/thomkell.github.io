@@ -6,6 +6,9 @@ title: "Projects"
 # Projects
 A selection of projects spanning digital pathology, applied AI, and computational science.
 
+## AIMIX – AI for Maternal & Fetal Health
+I am currently working on the ERC-funded AIMIX project, developing robust and data-efficient AI methods for fetal ultrasound analysis in low-resource African settings, with the aim of improving prenatal care and clinical decision support for pregnant women.
+
 ## Digital Pathology with Foundation Models *(Ellison Medical Institute – publication forthcoming)*
 As part of my work at Ellison Medical Institute in Los Angeles, I engineered AI pipelines for computational pathology using histopathology slides as the core data source. Leveraging foundation models such as Gigapath and Canvoi, I extracted high-dimensional embeddings from whole slide images to enable downstream machine learning tasks, including:
 - Classifying high vs. low BMI groups from histopathology data.  
